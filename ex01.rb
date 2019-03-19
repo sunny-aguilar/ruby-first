@@ -5,7 +5,7 @@ str = 'Wesley'
 i = 0
 
 while i < 5
-    print str[i]
+    puts str[i]
     i += 1
 end
 
