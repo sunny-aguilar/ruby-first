@@ -2,12 +2,12 @@
 # My first Ruby program
 
 # function with no paranthesis needed
-def saySomething()
+def saySomething
     puts 'Sandro'
     puts 'Aguilar'
 end
 
-saySomething()
+saySomething
 saySomething
 saySomething
 
