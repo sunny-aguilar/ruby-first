@@ -7,6 +7,7 @@ def saySomething
     puts 'Aguilar'
 end
 
+# calling a function without paran
 saySomething
 saySomething
 saySomething
