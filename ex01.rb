@@ -4,7 +4,7 @@
 # function with no paranthesis needed
 def sayHello(name, son)
     puts 'Hello ' + son + "!"
-    puts
+    puts ''
 end
 
 # calling a function without paran
