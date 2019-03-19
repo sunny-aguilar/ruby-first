@@ -9,4 +9,3 @@ end
 
 # calling a function without paran
 sayHello('Sandro', 'Wesley')
-sayHello('Wesley')
