@@ -1,7 +1,7 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-str = 'Sunny'
+str = 'Wesley'
 i = 0
 
 while i < 5
