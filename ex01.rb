@@ -10,3 +10,10 @@ end
 
 # calling a function without paran
 sayHello('Sandro', 'Wesley')
+
+def addTotal(num1, num2)
+  return num1 + num2
+end
+
+total = addTotal(5,5)
+puts total
