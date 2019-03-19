@@ -5,6 +5,7 @@
 def sayHello(name, son)
     puts 'Hello ' + son + "!"
     puts 'Papa loves you so much!'
+    puts name + ''
 end
 
 # calling a function without paran
