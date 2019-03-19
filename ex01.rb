@@ -1,14 +1,12 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-def printName(str)
-    i = 0
-    while i < str.length
-        puts str[i]
-        i += 1
-    end
+def saySomething
+    puts 'Sandro'
+    puts 'Aguilar'
 end
 
-printName('Wesley')
-
+saySomething
+saySomething
+saySomething
 
