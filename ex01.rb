@@ -7,5 +7,5 @@ def sayHello(name)
 end
 
 # calling a function without paran
-sayHello('Sandro')
+sayHello('Sandro', 'Wesley')
 sayHello('Wesley')
