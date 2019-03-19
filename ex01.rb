@@ -2,13 +2,9 @@
 # My first Ruby program
 
 # function with no paranthesis needed
-def saySomething
-    puts 'Sandro'
-    puts 'Aguilar'
+def sayHello(name)
+    puts 'Hello ' + name + "!"
 end
 
 # calling a function without paran
-saySomething
-saySomething
-saySomething
-
+sayHello('Sandro')
