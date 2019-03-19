@@ -4,8 +4,9 @@
 str = 'Wesley'
 i = 0
 
-while i < 5
+while i < 6
     puts str[i]
     i += 1
 end
 
+puts str[10]
