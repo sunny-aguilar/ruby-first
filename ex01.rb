@@ -8,6 +8,6 @@ def saySomething()
 end
 
 saySomething()
-saySomething()
-saySomething()
+saySomething
+saySomething
 
