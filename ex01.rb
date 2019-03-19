@@ -8,9 +8,6 @@ def printName(str)
     end
 end
 
-str = 'Wesley'
-i = 0
+printName('Wesley')
 
 
-
-puts str[10]
