@@ -35,4 +35,5 @@ else
     puts 'Count is the same as length'
 end
 
-def printName
+def printName()
+    while
