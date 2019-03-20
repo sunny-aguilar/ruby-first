@@ -26,3 +26,10 @@ while count < length
     count  += 1
 end
 puts "\n"
+
+if count < length
+    puts 'Count is less than length'
+elsif count > length
+    puts 'Count is '
+
+end
