@@ -25,3 +25,4 @@ while count < length
     print name[count]
     count  += 1
 end
+puts "\n"
