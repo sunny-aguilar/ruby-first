@@ -22,5 +22,5 @@ count = 0
 name = 'Sandro'
 length = name.length
 while count < length
-
+    puts name[count]
 end    
