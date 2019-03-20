@@ -18,5 +18,7 @@ end
 total = addTotal(5,5)
 puts total
 
+count 
 name = 'Sandro'
 length = name.length
+while 
