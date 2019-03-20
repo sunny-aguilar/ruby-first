@@ -39,3 +39,5 @@ def printName()
     while
     end
 end
+
+printName(name)
