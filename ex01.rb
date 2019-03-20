@@ -30,6 +30,6 @@ puts "\n"
 if count < length
     puts 'Count is less than length'
 elsif count > length
-    puts 'Count is '
+    puts 'Count is less'
 
 end
