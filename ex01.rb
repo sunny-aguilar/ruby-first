@@ -35,8 +35,10 @@ else
     puts 'Count is the same as length'
 end
 
+count = 0
+
 def printName(name)
-    while
+    while length
     end
 end
 
