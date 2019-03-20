@@ -20,4 +20,3 @@ puts total
 
 name = 'Sandro'
 length = name.length
-for ()
