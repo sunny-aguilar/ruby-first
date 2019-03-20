@@ -39,7 +39,7 @@ count = 0
 
 def printName(name)
     puts 'Function that prints name'
-    while length
+    while count < length
     end
 end
 
