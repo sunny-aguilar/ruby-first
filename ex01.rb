@@ -20,3 +20,4 @@ puts total
 
 name = 'Sandro'
 length = name.length
+puts length
