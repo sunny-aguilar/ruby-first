@@ -21,4 +21,4 @@ puts total
 count = 0
 name = 'Sandro'
 length = name.length
-while 
+while count < length
