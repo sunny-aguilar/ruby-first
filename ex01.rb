@@ -37,6 +37,7 @@ end
 
 
 def printName(name)
+    
     count = 0
     puts 'Function that prints name'
     while count < length
