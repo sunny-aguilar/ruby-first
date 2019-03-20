@@ -50,6 +50,6 @@ end
 printName(name)
 
 
-print 'Sandro'
+print 'Sandro '
 print 'Aguilar'
 puts "\n"
