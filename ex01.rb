@@ -31,5 +31,6 @@ if count < length
     puts 'Count is less than length'
 elsif count > length
     puts 'Count is greater than length'
-
+else
+    puts
 end
