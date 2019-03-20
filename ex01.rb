@@ -40,7 +40,7 @@ count = 0
 def printName(name)
     puts 'Function that prints name'
     while count < length
-        
+        puts name[]
     end
 end
 
