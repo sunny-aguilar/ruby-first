@@ -6,7 +6,7 @@ print letters
 
 def showArr
     myArr = [1,2,3,3,4,5]
-    myArr.count
+    puts myArr.count
     index = 0
     while index < myArr.length
         puts myArr[index]
