@@ -9,3 +9,7 @@ print "How much do you weigh? "
 weight = gets.chomp
 
 puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
+
+def oldFunction
+    puts "say some"
+end
