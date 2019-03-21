@@ -23,4 +23,5 @@ showArr
 intArr = [1,2,3]
 print intArr
 puts "\n"
-
+intArr << 4
+print intArr
