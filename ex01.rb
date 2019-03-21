@@ -10,8 +10,9 @@ puts name + " is #{age} years old"
 
 counter = 0
 
-while counter < 10
+while counter < name.length
     puts name[counter]
+    puts "" + counter
     counter += 1
 end
 
