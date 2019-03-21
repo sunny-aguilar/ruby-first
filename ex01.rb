@@ -5,7 +5,7 @@ def yell(words)
     newArr = ""
     i = 0
     while i < words.length
-        
+        newArr[i] = 
     end
 end
 
