@@ -14,3 +14,4 @@ while counter < 10
     puts name[counter]
     counter += 1
 end
+
