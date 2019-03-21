@@ -16,3 +16,8 @@ while counter < name.length
     counter += 1
 end
 
+if 3 < 4
+    puts true
+else
+    puts false
+end
