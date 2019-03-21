@@ -14,6 +14,7 @@ def oldFunction(name)
     puts "say something"
     puts "I'm adding 5 + 2 which is equal to #{5 + 2}"
     puts "Let's pass in some variables"
+    puts "Say "
 end
 
-oldFunction
+oldFunction "sandro"
