@@ -3,6 +3,7 @@
 
 letters = ["a", "b", "c", 3]
 print letters
+puts "\n"
 
 def showArr
     myArr = [1,2,3,3,4,5]
