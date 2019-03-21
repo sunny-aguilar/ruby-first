@@ -1,15 +1,12 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-def show_names(arr)
+def yell(words)
     i = 0
-    while i < arr.length
-        puts arr[i]
-        i += 1
-    end
-end
-
-names = ["Sandro", "Wesley", "Crystal"]
-
-show_names(names)
+    while i < 
+  end
+  
+  print yell(["hello", "world"]) # => ["hello!", "world!"]
+  puts
+  print yell(["code", "is", "cool"]) # => ["code!", "is!", "cool!"]
 
