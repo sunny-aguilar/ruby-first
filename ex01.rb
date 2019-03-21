@@ -4,7 +4,7 @@
 def show_names(arr)
     i = 0
     while i < arr.length
-        arr[i]
+        puts arr[i]
         i += 1
     end
 end
