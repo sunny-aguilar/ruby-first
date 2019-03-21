@@ -12,3 +12,4 @@ end
 names = ["Sandro", "Wesley", "Crystal"]
 
 show_names(names)
+
