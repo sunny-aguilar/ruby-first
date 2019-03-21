@@ -7,7 +7,7 @@ puts "\n"
 
 def showArr
     myArr = [1,2,3,3,4,5]
-    puts "# of 3s: " + myArr.count 3
+    puts "# of 3s: #{myArr.count 3}"
     index = 0
     while index < myArr.length
         puts myArr[index]
