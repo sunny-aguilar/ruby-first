@@ -1,59 +1,11 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-# function with no paranthesis needed
-def sayHello(name, son)
-    puts 'Hello ' + son + "!"
-    puts 'Papa loves you so much!'
-    puts name + ' loves baby so much'
-end
+print "How old are you? "
+age = gets.chomp
+print "How tall are you? "
+height = gets.chomp
+print "How much do you weigh? "
+weight = gets.chomp
 
-# calling a function without paran
-sayHello('Sandro', 'Wesley')
-
-def addTotal(num1, num2)
-  return num1 + num2
-end
-
-total = addTotal(5,5)
-puts total
-
-count = 0
-name = 'Sandro'
-length = name.length
-while count < length
-    print name[count]
-    count  += 1
-end
-puts "\n"
-
-if count < length
-    puts 'Count is less than length'
-elsif count > length
-    puts 'Count is greater than length'
-else
-    puts 'Count is the same as length'
-end
-
-
-def printName(name)
-    name = 'Sunny'
-    length = name.length
-    count = 0
-    puts 'Function that prints name'
-    while count < length
-        puts name[count]
-        count += 1
-    end
-end
-
-printName(name)
-
-
-print 'Sandro '
-print 'Aguilar'
-puts "\n"
-
-puts 'Sandro'
-puts 'Aguilar'
-
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
