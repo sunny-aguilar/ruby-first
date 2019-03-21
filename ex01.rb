@@ -8,3 +8,4 @@ def showArr
 
 end
 
+showArr
