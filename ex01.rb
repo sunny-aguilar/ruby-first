@@ -12,7 +12,7 @@ counter = 0
 
 while counter < name.length
     puts name[counter]
-    puts "" + counter
+    puts "Counter: " + counter
     counter += 1
 end
 
