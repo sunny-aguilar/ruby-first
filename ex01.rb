@@ -4,9 +4,12 @@
 def yell(words)
     i = 0
     while i < words.length
-  end
-  
-  print yell(["hello", "world"]) # => ["hello!", "world!"]
-  puts
-  print yell(["code", "is", "cool"]) # => ["code!", "is!", "cool!"]
+
+        i += 1
+    end
+end
+
+print yell(["hello", "world"]) # => ["hello!", "world!"]
+puts
+print yell(["code", "is", "cool"]) # => ["code!", "is!", "cool!"]
 
