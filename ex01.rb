@@ -1,11 +1,9 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-name = "Sandro"
+letters = ["a", "b", "c", 3]
+print letters
 
-print "How old are you? "
-age = gets.chomp
+def showArr
 
-print "Enter a random number"
-randomNum = gets.chomp
-puts "You entered #{randomNum}"
+end
