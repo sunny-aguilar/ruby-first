@@ -9,4 +9,4 @@ age = gets.chomp
 print "Enter a random number"
 randomNum = puts.chomp
 
-puts "You entere"
+puts "You entered #{}"
