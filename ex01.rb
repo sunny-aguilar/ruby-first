@@ -6,4 +6,4 @@ name = "Sandro"
 print "How old are you? "
 age = gets.chomp
 
-puts name + " is #{age} years"
+puts name + " is #{age} years old"
