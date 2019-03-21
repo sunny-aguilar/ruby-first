@@ -3,7 +3,7 @@
 
 def yell(words)
     i = 0
-    while i < 
+    while i < words.length
   end
   
   print yell(["hello", "world"]) # => ["hello!", "world!"]
