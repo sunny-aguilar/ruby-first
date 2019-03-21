@@ -20,4 +20,4 @@ end
 
 showArr
 
-intArr = [1]
+intArr = [1,2,3]
