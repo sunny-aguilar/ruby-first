@@ -13,7 +13,7 @@ def showArr
     puts myArr[0]
     index = 0
     while index < myArr.length
-#         puts myArr[index]
+        puts myArr[index]
         index += 1
     end
 end
