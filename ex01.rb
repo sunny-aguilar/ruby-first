@@ -26,3 +26,6 @@ puts "\n"
 intArr << 4
 print intArr
 puts "\n"
+intArr[0] = 99
+intArr[1] = 99
+intArr[]
