@@ -12,10 +12,10 @@ def showArr
     myArr = [1,2,3,3,4,5]
     puts myArr[0]
     index = 0
-#     while index < myArr.length
+    while index < myArr.length
 #         puts myArr[index]
-#         index += 1
-#     end
+        index += 1
+    end
 end
 
 showArr
