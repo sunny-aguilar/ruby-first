@@ -8,6 +8,6 @@ age = gets.chomp
 
 puts name + " is #{age} years old"
 
-counter = 12
+counter = 0
 
-while 
+while counter < 10
