@@ -1,7 +1,7 @@
 # Author: Sandro Aguilar
 # My first Ruby program
 
-name
+name = "Sandro"
 
 print "How old are you? "
 age = gets.chomp
