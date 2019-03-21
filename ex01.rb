@@ -21,3 +21,5 @@ end
 showArr
 
 intArr = [1,2,3]
+print intArr
+puts "\n"
