@@ -6,21 +6,3 @@ name = "Sandro"
 print "How old are you? "
 age = gets.chomp
 
-puts name + " is #{age} years old"
-
-counter = 0
-
-while counter < name.length
-    puts name[counter]
-    puts "Counter: #{counter}"
-    counter += 1
-end
-
-if 33 < 4
-    puts true
-else
-    puts false
-end
-
-puts "Sandro Aguilar"
-
