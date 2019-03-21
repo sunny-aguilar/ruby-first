@@ -7,6 +7,5 @@ print "How old are you? "
 age = gets.chomp
 
 print "Enter a random number"
-randomNum = puts.chomp
-
+randomNum = gets.chomp
 puts "You entered #{randomNum}"
