@@ -12,7 +12,7 @@ puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 
 def oldFunction
     puts "say something"
-    puts
+    puts "I'm"
 end
 
 oldFunction
