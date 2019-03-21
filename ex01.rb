@@ -25,3 +25,4 @@ print intArr
 puts "\n"
 intArr << 4
 print intArr
+puts "\n"
