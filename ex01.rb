@@ -20,3 +20,4 @@ end
 
 showArr
 
+intArr = [1]
