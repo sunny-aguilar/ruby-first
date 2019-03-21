@@ -2,7 +2,7 @@
 # My first Ruby program
 
 def show_names(arr)
-    int i = 0
+    i = 0
     while i < arr.length
         arr[i]
         i += 1
