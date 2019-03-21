@@ -13,7 +13,7 @@ puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 def oldFunction
     puts "say something"
     puts "I'm adding 5 + 2 which is equal to #{5 + 2}"
-    puts "Let's pass in some"
+    puts "Let's pass in some variables"
 end
 
 oldFunction
