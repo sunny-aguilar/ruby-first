@@ -6,7 +6,7 @@ def fizz_buzz(max)
     i = 0
 
     while i < max
-        if max
+        if max[i]
         
     end
 
