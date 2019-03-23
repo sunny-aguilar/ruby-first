@@ -17,7 +17,6 @@ end
 
 print fizz_buzz(20) # => [4, 6, 8, 16, 18]
 puts
-puts puts puts
 print fizz_buzz(15) # => [4, 6, 8]
 
 # Write a method fizz_buzz(max) that
