@@ -6,6 +6,3 @@ arr = [1,2,3]
 arr.shift()
 print arr
 
-def(a, b)
-
-end
