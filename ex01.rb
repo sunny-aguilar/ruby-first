@@ -4,4 +4,4 @@
 
 arr = [1,2,3]
 print arr.pop()
-prints arr
+print arr
