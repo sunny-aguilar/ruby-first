@@ -9,7 +9,7 @@ def fizz_buzz(max)
         if max[i] % 4 == 0 || max[i] % 6 == 0
 
         end
-        
+        i += 1
     end
 
     return divides
