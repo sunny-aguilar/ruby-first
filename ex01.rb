@@ -7,7 +7,7 @@ def fizz_buzz(max)
 
     while i < max
         if i % 4 == 0 || i % 6 == 0
-            divides << max[i]
+            divides << i
         end
         i += 1
     end
