@@ -3,5 +3,9 @@
 
 
 arr = [1,2,3]
-print arr.pop()
+arr.shift()
 print arr
+
+def(a, b)
+
+end
