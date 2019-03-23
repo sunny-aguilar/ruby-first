@@ -2,7 +2,8 @@
 # A Ruby program
 
 def fizz_buzz(max)
-
+    divides = []
+    i = 0
 
 end
 
