@@ -5,7 +5,10 @@ def fizz_buzz(max)
     divides = []
     i = 0
 
-    
+    while 
+        
+        
+    end
 
     return divides
 end
