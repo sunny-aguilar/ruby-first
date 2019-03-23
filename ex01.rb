@@ -4,4 +4,4 @@
 first, second, third = ARGV
 
 puts "Your first variable is: ${}"
-puts ""
+puts "Your second variable is:"
