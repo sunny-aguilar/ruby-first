@@ -7,4 +7,4 @@ number = gets.chomp.to_i
 print "Your number is #{number}\n"
 
 maths = 10 * number
-print "Your multiplicationis #{}"
+print "Your multiplicationis #{maths}"
