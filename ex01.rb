@@ -1,17 +1,18 @@
 # Author: Sandro Aguilar
-# My first Ruby program
+# A Ruby program
 
-def yell(words)
-    newArr = ""
+def sum_elements(arr1, arr2)
+    sum = []
     i = 0
-    while i < words.length
-        newArr[i] = words[i]
 
+    while i < arr1.length
+        sum << arr1[i] + arr2[i]
         i += 1
     end
+
+    return sum
 end
 
-print yell(["hello", "world"]) # => ["hello!", "world!"]
+print sum_elements([7, 4, 4], [3, 2, 11])                            # => [10, 6, 15]
 puts
-print yell(["code", "is", "cool"]) # => ["code!", "is!", "cool!"]
-
+print sum_elements(["cat", "pizza", "boot"], ["dog", "pie", "camp"]) # => ["catdog", "pizzapie", "bootcamp"]
