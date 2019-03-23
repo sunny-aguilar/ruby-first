@@ -4,4 +4,4 @@
 print "Enter a number\n>> "
 number = gets.chomp
 
-print "Your number is #{number}"
+print "Your number is #{number}\n"
