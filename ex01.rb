@@ -3,7 +3,7 @@
 
 def fizz_buzz(max)
     divides = []
-    i = 0
+    i = 1
 
     while i < max
         if i % 4 == 0 || i % 6 == 0
