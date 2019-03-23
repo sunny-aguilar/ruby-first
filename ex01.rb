@@ -1,10 +1,5 @@
 # Author: Sandro Aguilar
 # A Ruby program
 
-print "Enter a number\n>> "
-number = gets.chomp.to_i
+first, second, third = ARGV
 
-print "Your number is #{number}\n"
-
-maths = 10 * number
-print "Your multiplicationis #{maths}\n"
