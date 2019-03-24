@@ -4,10 +4,12 @@
 # .include?("CA") => returns T/F if its in the array
 # .reverse => reverses an array
 # [n..N] => returns a range in an array including N/ ... exludes N
-# .each
+# .each { |var| puts var }
+# .each do |var| *statements* end
+
 
 # (1..10).each do |day|
 #     puts day
 # end
 
-(1...10).each do { |day| puts day }
+(1...10).each { |day| puts day }
