@@ -8,3 +8,6 @@
 
 arr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
 arr.each { |month| puts month}   # || is a block parameter
+arr.each do |month|
+    puts 
+end
