@@ -10,8 +10,10 @@
 
 arr = ["a", "b", "c", "d", "e"]
 
-arr.each do |ele1|
-    arr.each do |ele2|
-        puts ele1 + " " + ele2
-    end
+def to_initials(name)
+
 end
+
+puts to_initials("Kelvin Bridges")      # => "KB"
+puts to_initials("Michaela Yamamoto")   # => "MY"
+puts to_initials("Mary La Grange")      # => "MLG"
