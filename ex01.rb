@@ -12,4 +12,4 @@
 #     puts day
 # end
 
-5.times { puts }
+5.times { puts "hello" }
