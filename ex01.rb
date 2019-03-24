@@ -6,8 +6,4 @@
 # [n..N] => returns a range in an array including N/ ... exludes N
 # .each
 
-str = "Hello World"
-str.each_char do |char|
-    puts "-----"
-    puts char
-end
+()
