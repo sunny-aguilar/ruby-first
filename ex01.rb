@@ -17,4 +17,4 @@ def is_palindrome(word)
     return word == word.reverse
 end
 
-is_palindrome("racecar")
+puts is_palindrome("racecar")
