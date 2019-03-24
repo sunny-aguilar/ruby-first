@@ -4,8 +4,5 @@
 # .include?("CA") => returns T/F if its in the array
 # .reverse => reverses an array
 
-arr = ["SA", "WA", "CA"]
-puts arr.include?("CA")
-
-str = "Sandro"
-puts str.index("dro")
+arr = [1,2,3,4]
+print arr
