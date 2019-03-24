@@ -5,20 +5,6 @@
 # .reverse => reverses an array
 # [n..N] => returns a range in an array including N/ ... exludes N
 
-arr = [1,2,3,4]
-print arr
-puts
-arr.reverse
-print arr
-puts
-str = "hello"
-puts str.reverse
-
-def is_palindrome(word)
-    return word == word.reverse
-end
-
-puts is_palindrome("car")
-
-numArr = ["a", "b", "c", "d", "e"]
-print numArr[0..2]
+l = ->a, b = 28, c = 1{puts (("Love" * a).center(b)) * c}
+l.call(2, 14, 2)
+l.call(3, 14, 2);[7,7,7,6,5,4,3,2,1].map{|x|l.call(x)}
