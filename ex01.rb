@@ -7,4 +7,4 @@ arr = ["SA", "WA", "CA"]
 puts arr.include?("CA")
 
 str = "Sandro"
-puts str.index()
+puts str.index("dro")
