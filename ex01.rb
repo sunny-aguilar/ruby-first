@@ -14,11 +14,7 @@ str = "hello"
 puts str.reverse
 
 def is_palindrome(word)
-    if word == word.reverse
-        return true
-    else
-        return false
-    end
+    return word == word.reverse
 end
 
 is_palindrome("racecar")
