@@ -20,4 +20,4 @@ end
 puts is_palindrome("car")
 
 numArr = ["a", "b", "c", "d", "e"]
-puts numArr[0...2]
+print numArr[0...3]
