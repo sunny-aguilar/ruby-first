@@ -13,3 +13,12 @@ puts
 str = "hello"
 puts str.reverse
 
+def is_palindrome(word)
+    if word == word.reverse
+        return true
+    else
+        return false
+    end
+end
+
+is_palindrome("racecar")
