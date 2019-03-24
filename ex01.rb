@@ -9,3 +9,7 @@
 # .times {}
 
 arr = ["a", "b", "c", "d", "e"]
+
+arr.each do |ele1|
+    arr
+end
