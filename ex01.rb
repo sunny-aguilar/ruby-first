@@ -9,3 +9,6 @@ print arr
 puts
 arr.reverse
 print arr
+
+str = "hello"
+puts str.reverse
