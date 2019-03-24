@@ -7,3 +7,4 @@
 # .each
 
 arr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+arr.each{ |month| puts month}
