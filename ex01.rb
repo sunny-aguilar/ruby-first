@@ -2,4 +2,4 @@
 # A Ruby program
 
 arr = ["SA", "WA", "CA"]
-puts arr.index("C")
+puts arr.include?("CA")
