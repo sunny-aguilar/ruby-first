@@ -7,7 +7,7 @@
 # .each
 
 str = "Hello World"
-arr.each do |month|
+str.each_char do |char|
     puts "-----"
-    puts month
+    puts char
 end
