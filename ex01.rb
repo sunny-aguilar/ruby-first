@@ -11,5 +11,7 @@
 arr = ["a", "b", "c", "d", "e"]
 
 arr.each do |ele1|
-    arr
+    arr.each do ||
+
+    end
 end
