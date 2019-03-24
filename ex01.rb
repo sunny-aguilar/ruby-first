@@ -6,7 +6,7 @@
 # [n..N] => returns a range in an array including N/ ... exludes N
 # .each
 
-arr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+str = ""
 arr.each { |month| puts month}   # || is a block parameter
 arr.each do |month|
     puts "-----"
