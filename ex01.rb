@@ -11,5 +11,4 @@ arr.each { |month| puts month}   # || is a block parameter
 arr.each do |month|
     puts "-----"
     puts month
-    puts "-----"
 end
