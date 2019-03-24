@@ -17,4 +17,7 @@ def is_palindrome(word)
     return word == word.reverse
 end
 
-puts is_palindrome("racecar")
+puts is_palindrome("car")
+
+numArr = ["a", "b", "c", "d", "e"]
+puts numArr[0...2]
