@@ -12,10 +12,9 @@ arr = ["a", "b", "c", "d", "e"]
 
 def to_initials(name)
     newArr = name.split(" ")
-    #print newArr
     puts
     newArr.each do |ele|
-        print ele[0]
+        puts ele
     end
 end
 
