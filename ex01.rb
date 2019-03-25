@@ -8,12 +8,9 @@
 # .each do |var| *statements* end
 # .times {}
 
-def to_initials(name)
-    str = name.split(" ")
-    initials = ""
-    str.each do { |ele| initials += ele[0] }
+def first_in_array(arr, el1, el2)
+
 end
 
-puts to_initials("Kelvin Bridges")      # => "KB"
-puts to_initials("Michaela Yamamoto")   # => "MY"
-puts to_initials("Mary La Grange")      # => "MLG"
+puts first_in_array(["a", "b", "c", "d"], "d", "b"); # => "b"
+puts first_in_array(["cat", "bird" ,"dog", "mouse" ], "dog", "mouse"); # => "dog"
