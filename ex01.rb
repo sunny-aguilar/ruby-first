@@ -11,7 +11,8 @@
 arr = ["a", "b", "c", "d", "e"]
 
 def to_initials(name)
-
+    newArr = name.split(" ")
+    print newArr
 end
 
 puts to_initials("Kelvin Bridges")      # => "KB"
