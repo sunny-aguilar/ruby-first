@@ -9,10 +9,9 @@
 # .times {}
 
 def to_initials(name)
-    newArr = name.split(" ")
-    newArr.each do |ele|
-        print ele[0]
-    end
+    str = name.split(" ")
+    initials = ""
+    str.each do { |ele| initials += ele[0] }
 end
 
 puts to_initials("Kelvin Bridges")      # => "KB"
