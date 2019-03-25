@@ -9,7 +9,11 @@
 # .times {}
 
 def first_in_array(arr, el1, el2)
-
+    arr.each do |ele|
+        if ele == el1 || ele == el2
+            return ele
+        end
+    end
 end
 
 puts first_in_array(["a", "b", "c", "d"], "d", "b"); # => "b"
