@@ -23,6 +23,9 @@ end
 def check_elements(str)
     arr = str.split(" ")
     if arr.length > 1
+        return true
+    else
+
     end
 end
 
