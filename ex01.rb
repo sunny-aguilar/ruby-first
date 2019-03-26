@@ -14,6 +14,8 @@
 
 def format_name(str)
 
+
+    
 end
 
 puts format_name("chase WILSON") # => "Chase Wilson"
