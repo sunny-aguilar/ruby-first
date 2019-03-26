@@ -32,8 +32,8 @@ def capitalize (word)
         newWord += ele
         count += 1
     end
-    capitalized = word[0].upcase
-    puts capitalized
+    
+    puts newWord
     return capitalized
 end
 
