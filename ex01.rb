@@ -23,8 +23,9 @@ def format_name(str)
 end
 
 def capitalize (word)
-    capitalized = word[]
-    return 
+    capitalized = word[0].upcase
+    puts capitalized
+    return capitalized
 end
 
 print format_name("chase WILSON") # => "Chase Wilson"
