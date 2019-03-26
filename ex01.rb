@@ -23,6 +23,8 @@ def format_name(str)
 end
 
 def capitalize (word)
+    newWord = ""
+    word.each do |ele|
     capitalized = word[0].upcase
     puts capitalized
     return capitalized
