@@ -17,7 +17,7 @@
 # "a".upcase # => "A"
 
 def is_valid_name(str)
-    check_elements(str)
+    length = check_elements(str)
 end
 
 def check_elements(str)
@@ -25,7 +25,7 @@ def check_elements(str)
     if arr.length > 1
         return true
     else
-
+        return false
     end
 end
 
