@@ -20,6 +20,7 @@ def format_name(str)
 end
 
 def capitalize (word)
+    
 
 puts format_name("chase WILSON") # => "Chase Wilson"
 puts format_name("brian CrAwFoRd scoTT") # => "Brian Crawford Scott"
