@@ -38,7 +38,7 @@ def capitalize (word)
     #return capitalized
 end
 
-capitalize("chase")
+
 
 #print format_name("chase WILSON") # => "Chase Wilson"
 #print format_name("brian CrAwFoRd scoTT") # => "Brian Crawford Scott"
