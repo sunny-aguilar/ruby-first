@@ -33,9 +33,8 @@ def capitalize (word)
         end
         count += 1
     end
-    
-    puts newWord
-    #return capitalized
+
+    return newWord
 end
 
 
