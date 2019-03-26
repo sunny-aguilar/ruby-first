@@ -23,7 +23,7 @@ def format_name(str)
 end
 
 def capitalize (word)
-    print word
+    capitalized = word[]
     return 
 end
 
