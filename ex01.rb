@@ -18,6 +18,7 @@
 
 def is_valid_name(str)
     length = check_elements(str)
+    
 end
 
 def check_elements(str)
