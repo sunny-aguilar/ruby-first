@@ -17,10 +17,10 @@
 # "a".upcase # => "A"
 
 def is_valid_name(str)
-
+    check_elements(str)
 end
 
-def check_elements
+def check_elements()
 
 end
 
