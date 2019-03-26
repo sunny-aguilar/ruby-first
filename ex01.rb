@@ -19,8 +19,8 @@ def format_name(str)
 end
 
 def capitalize (word)
-    arr = []
-    
+    arr = word.split(" ")
+    print arr
 end
 
 puts format_name("chase WILSON") # => "Chase Wilson"
