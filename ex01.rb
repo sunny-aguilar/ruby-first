@@ -25,16 +25,16 @@ end
 def capitalize (word)
     newWord = ""
     count = 1
-    word.each do |ele|
+    word.each do |char|
         if count == 1
-            newWord += ele[0].upcase
+            newWord += char[0].upcase
         end
-        newWord += ele
+        newWord += char
         count += 1
     end
     
     puts newWord
-    return capitalized
+    #return capitalized
 end
 
 print format_name("chase WILSON") # => "Chase Wilson"
