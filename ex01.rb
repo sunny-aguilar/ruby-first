@@ -25,6 +25,8 @@ end
 def capitalize (word)
     newWord = ""
     word.each do |ele|
+        newWord
+    end
     capitalized = word[0].upcase
     puts capitalized
     return capitalized
