@@ -14,8 +14,11 @@
 
 def format_name(str)
     newString = str.downcase
+    capitalString = ""
     arr = newString.split(" ")
-    
+    arr.each do |ele|
+        capitalString = capitalize(ele)
+    end
     newString = capitalize(newString)
     return newString
 end
@@ -23,6 +26,7 @@ end
 def capitalize (word)
     arr = word.split(" ")
     print arr
+    return 
 end
 
 puts format_name("chase WILSON") # => "Chase Wilson"
