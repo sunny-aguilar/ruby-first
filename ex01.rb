@@ -24,8 +24,13 @@ end
 
 def capitalize (word)
     newWord = ""
+    count = 1
     word.each do |ele|
+        if count == 1
+            ele
+        end
         newWord +=
+        count += 1
     end
     capitalized = word[0].upcase
     puts capitalized
