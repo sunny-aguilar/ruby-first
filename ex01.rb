@@ -15,6 +15,7 @@
 def format_name(str)
     newString = str.downcase
     arr = newString.split(" ")
+    
     newString = capitalize(newString)
     return newString
 end
