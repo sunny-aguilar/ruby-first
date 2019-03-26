@@ -13,6 +13,7 @@
 # "abc".upcase # => "ABC"
 
 def format_name(str)
+    newString = str.downcase
 
 
 
