@@ -14,9 +14,8 @@
 
 def format_name(str)
     newString = str.downcase
-
-
-
+    newString = capitalize(newString)
+    return newString
 end
 
 def capitalize (word)
