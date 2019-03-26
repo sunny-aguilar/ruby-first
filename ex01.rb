@@ -20,7 +20,7 @@ def format_name(str)
     arr.each do |ele|
         wordArr << capitalize(ele)
     end
-
+    capitalString = 
     return capitalString
 end
 
