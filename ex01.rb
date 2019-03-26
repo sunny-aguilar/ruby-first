@@ -40,7 +40,7 @@ end
 
 
 
-#print format_name("chase WILSON") # => "Chase Wilson"
+print format_name("chase WILSON") # => "Chase Wilson"
 #print format_name("brian CrAwFoRd scoTT") # => "Brian Crawford Scott"
 
 # Write a method format_name that takes
