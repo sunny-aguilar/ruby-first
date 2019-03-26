@@ -19,7 +19,7 @@ def format_name(str)
 end
 
 def capitalize (word)
-
+    arr = []
 end
 
 puts format_name("chase WILSON") # => "Chase Wilson"
