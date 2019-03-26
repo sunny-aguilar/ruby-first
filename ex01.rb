@@ -23,7 +23,6 @@ def format_name(str)
 end
 
 def capitalize (word)
-    arr = word.split(" ")
     print arr
     return 
 end
