@@ -19,7 +19,7 @@ def format_name(str)
     arr.each do |ele|
         capitalString = capitalize(ele)
     end
-    return newString
+    #return newString
 end
 
 def capitalize (word)
