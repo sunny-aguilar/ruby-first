@@ -9,41 +9,18 @@
 # .times {}
 # .each_char  => iterates over each character
 
-# Hint: use str.upcase and str.downcase
-# "abc".upcase # => "ABC"
+# A name is valid is if satisfies all of the following:
+# - contains at least a first name and last name, separated by spaces
+# - each part of the name should be capitalized
+#
+# Hint: use str.upcase or str.downcase
+# "a".upcase # => "A"
 
-def format_name(str)
-    newString = str.downcase
-    capitalString = ""
-    wordArr = []
-    arr = newString.split(" ")
-    arr.each do |ele|
-        wordArr << capitalize(ele)
-    end
-    capitalString = wordArr.join(" ")
-    return capitalString
+def is_valid_name(str)
+
 end
 
-def capitalize (word)
-    newWord = ""
-    count = 1
-    word.each_char do |char|
-        if count == 1
-            newWord += char[0].upcase
-        else
-            newWord += char
-        end
-        count += 1
-    end
-
-    return newWord
-end
-
-
-
-print format_name("chase WILSON") # => "Chase Wilson"
-print format_name("brian CrAwFoRd scoTT") # => "Brian Crawford Scott"
-
-# Write a method format_name that takes
-# in a name string and returns the name
-# properly capitalized.
+puts is_valid_name("Kush Patel")       # => true
+puts is_valid_name("Daniel")           # => false
+puts is_valid_name("Robert Downey Jr") # => true
+puts is_valid_name("ROBERT DOWNEY JR") # => false
