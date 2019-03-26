@@ -22,25 +22,3 @@
 # Write a method format_name that takes
 # in a name string and returns the name
 # properly capitalized.
-
-class Dog
-    def talk
-        puts "Woof!"
-    end
-
-    def name=(new_value)
-        @name = new_value
-    end
-
-    def name
-        @name
-    end
-
-    def report_name
-        puts "#{@name} is a super cool puppy"
-    end
-end
-
-fido = Dog.new
-fido.name = "Fido"
-fido.report_name
