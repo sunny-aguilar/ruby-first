@@ -18,8 +18,6 @@
 
 def is_valid_name(str)
 
-    
-
 
 end
 
