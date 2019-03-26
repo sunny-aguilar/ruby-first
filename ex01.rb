@@ -25,7 +25,7 @@ end
 def capitalize (word)
     newWord = ""
     count = 1
-    word.each do |char|
+    word.each_char do |char|
         if count == 1
             newWord += char[0].upcase
         end
