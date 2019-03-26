@@ -15,10 +15,12 @@
 def format_name(str)
     newString = str.downcase
     capitalString = ""
+    wordArr = []
     arr = newString.split(" ")
     arr.each do |ele|
-        capitalString += capitalize(ele)
+        wordArr += capitalize(ele)
     end
+
     return capitalString
 end
 
