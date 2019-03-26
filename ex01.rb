@@ -21,7 +21,9 @@ def is_valid_name(str)
 end
 
 def check_elements(str)
-
+    arr = str.split(" ")
+    if arr.length > 1
+    end
 end
 
 puts is_valid_name("Kush Patel")       # => true
