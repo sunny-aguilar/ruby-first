@@ -5,4 +5,4 @@ txt = open(filename)
 puts "Here's your file #{filename}"
 print txt.read
 
-print "Type the file name"
+print "Type the file name again"
