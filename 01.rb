@@ -6,4 +6,4 @@ puts "Here's your file #{filename}"
 print txt.read
 
 print "Type the file name again: "
-file_again = $stdin.
+file_again = $stdin.gets.chomp
