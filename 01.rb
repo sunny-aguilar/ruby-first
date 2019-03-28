@@ -1,3 +1,3 @@
 
 filename = ARGV.first
-txt = open()
+txt = open(filename)
