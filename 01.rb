@@ -8,4 +8,4 @@ print txt.read
 print "Type the file name again: "
 file_again = $stdin.gets.chomp
 
-txt_again = open()
+txt_again = open(file_again)
