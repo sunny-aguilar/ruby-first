@@ -50,6 +50,7 @@ def splitString(word)
     return word.split
 end
 
+
 def capitalizeWord(lower_arr)
     capitalized = ""
     newArr = []
