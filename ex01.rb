@@ -18,7 +18,19 @@
 
 def is_valid_name(str)
     length = check_elements(str)
-    
+
+    # capitalize first word in letter
+    lower_case_word = lowerCase(str)
+    lower_arr = splitString(lower_case_word)
+    capitalizeWord(lower_arr)
+
+
+    if length
+        return true
+    else
+        return false
+    end
+
 end
 
 def check_elements(str)
@@ -30,7 +42,41 @@ def check_elements(str)
     end
 end
 
+def lowerCase(word)
+    return lower = word.downcase
+end
+
+def splitString(word)
+    return word.split
+end
+
+def capitalizeWord(lower_arr)
+    capitalized = ""
+    newArr = []
+    count = 0
+
+    lower_arr.each do |ele|
+        ele.each_char do |char|
+            if count == 0
+                capitalized += char.upcase
+                count += 1
+            else
+                capitalize += char
+                count += 1
+            end
+        end
+    end
+
+    puts capitalized
+end
+
+
 puts is_valid_name("Kush Patel")       # => true
 puts is_valid_name("Daniel")           # => false
 puts is_valid_name("Robert Downey Jr") # => true
 puts is_valid_name("ROBERT DOWNEY JR") # => false
+
+# Write a method is_valid_name that
+# takes in a string and returns a boolean
+# indicating whether or not it is a valid
+# name.
