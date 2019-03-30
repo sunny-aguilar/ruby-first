@@ -54,7 +54,7 @@ def capitalizeWord(lower_arr)
     capitalized = ""
     newArr = []
 
-    puts lower_arr
+    puts lower_arr.first
     puts
     puts
 
