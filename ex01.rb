@@ -17,7 +17,7 @@
 # "a".upcase # => "A"
 
 def is_valid_name(str)
-    
+    # 
     length = check_elements(str)
 
     # capitalize first word in letter
