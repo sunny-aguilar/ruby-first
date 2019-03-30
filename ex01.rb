@@ -20,8 +20,9 @@ def is_valid_name(str)
     # check length
     length = check_elements(str)
 
-    # 
+    # make lower case
     lower_case_word = lowerCase(str)
+    
     lower_arr = splitString(lower_case_word)
     capitalizeWord(lower_arr)
 
