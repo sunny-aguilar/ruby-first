@@ -23,7 +23,7 @@ def is_valid_name(str)
     # make lower case
     lower_case_word = lowerCase(str)
 
-    # split 
+    # split string
     lower_arr = splitString(lower_case_word)
     capitalizeWord(lower_arr)
 
