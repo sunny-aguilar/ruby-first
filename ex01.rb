@@ -56,7 +56,7 @@ def capitalizeWord(lower_arr)
     count = 0
 
     lower_arr.each do |ele|
-        puts "XXXXXXXXXXXXXX #{ele.first}"
+        puts ele.first
         ele.each_char do |char|
             if count == 0
                 capitalized += char.upcase
