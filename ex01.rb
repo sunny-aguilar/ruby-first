@@ -43,7 +43,7 @@ def check_elements(str)
 end
 
 def lowerCase(word)
-    return lower = word.downcase
+    return word.downcase
 end
 
 def splitString(word)
