@@ -30,7 +30,7 @@ def is_valid_name(str)
     capitalizeWord(lower_arr)
 
 
-    # return boolean
+    # return boolean to indicate valid name
     if length
         return true
     else
