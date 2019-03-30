@@ -55,7 +55,7 @@ def capitalizeWord(lower_arr)
     newArr = []
     count = 0
 
-    puts ele.first
+    puts newArr.first
 
     lower_arr.each do |ele|
         ele.each_char do |char|
